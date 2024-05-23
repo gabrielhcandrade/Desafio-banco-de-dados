@@ -1,46 +1,24 @@
 # DIO - Trilha .NET - Banco de Dados
 www.dio.me
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de banco de dados, da trilha .NET da DIO.
+## Desafio de Banco de Dados Completado! 👍
 
-## Contexto
-Você é responsável pelo banco de dados de um site de filmes, onde são armazenados dados sobre os filmes e seus atores. Sendo assim, foi solicitado para que você realize uma consulta no banco de dados com o objetivo de trazer alguns dados para análises.
-
-## Proposta
-Você precisará realizar 12 consultas ao banco de dados, cada uma retornando um tipo de informação.
-O seu banco de dados está modelado da seguinte maneira:
+Com base no meu conhecimento adquirido no módulo de banco de dados da trilha .NET da DIO, finalizei com sucesso as 12 consultas ao nosso banco de dados de filmes.
+Através da aplicação prática no SQL e do conhecimento do modelo de dados, consegui extrair informações valiosas do nosso banco de dados de filmes.
+Esse projeto me permitiu aprimorar minhas capacidades de: **Análise de Dados**, **Resolução de Problemas** e **Comunicação Eficiente**.
 
 ![Diagrama banco de dados](Imagens/diagrama.png)
 
 As tabelas sao descritas conforme a seguir:
 
-**Filmes**
-
-Tabela responsável por armazenar informações dos filmes.
-
-**Atores**
-
-Tabela responsável por armazenar informações dos atores.
-
-**Generos**
-
-Tabela responsável por armazenar os gêneros dos filmes.
-
-**ElencoFilme**
-
-Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e atores, ou seja, um ator pode trabalhar em muitos filmes, e filmes
+- Filmes: Tabela responsável por armazenar informações dos filmes.
+- Atores: Tabela responsável por armazenar informações dos atores.
+- Generos: Tabela responsável por armazenar os gêneros dos filmes.
+- ElencoFilme: Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e atores, ou seja, um ator pode trabalhar em muitos filmes, e filmes
 podem ter muitos atores.
+- FilmesGenero: Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e gêneros, ou seja, um filme pode ter mais de um gênero, e um genêro pode fazer parte de muitos filmes.
 
-**FilmesGenero**
-
-Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e gêneros, ou seja, um filme pode ter mais de um gênero, e um genêro pode fazer parte de muitos filmes.
-
-## Preparando o banco de dados
-Você deverá executar o arquivo **Script Filmes.sql** em seu banco de dados SQL Server, presente na pasta Scripts deste repositório ([ou clique aqui](Script%20Filmes.sql)). Esse script irá criar um banco chamado **Filmes**, contendo as tabelas e os dados necessários para você realizar este desafio.
-
-## Objetivo
-Você deverá criar diversas consultas, com o objetivo de retornar os dados a seguir. Abaixo de cada pedido tem o retorno esperado. O seu retorno deve ser igual ao da imagem.
+## Resultado Final ✅
 
 ## 1 - Buscar o nome e ano dos filmes
 
@@ -66,7 +44,7 @@ Você deverá criar diversas consultas, com o objetivo de retornar os dados a se
 
 ![Exercicio 6](Imagens/6.png)
 
-## 7 - Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela duracao em ordem decrescente
+## 7 - Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela quantidade em ordem decrescente
 
 ![Exercicio 7](Imagens/7.png)
 
